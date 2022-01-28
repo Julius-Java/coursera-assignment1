@@ -2,4 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Supermercado One, sans-serif, monospace, serif;
 }
+
+h1 {
+    margin: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
