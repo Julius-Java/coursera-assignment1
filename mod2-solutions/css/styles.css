@@ -26,10 +26,12 @@ p {
     
 }
 
+
+
 /* Simple Responsive Framework. */
-.row {
+/* .row {
     width: 100%;
-}
+} */
 
 .span-1 {
     background-color: pink;
@@ -82,14 +84,19 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
     .col-md-6 {
         float: left;
-        /* border: 1px solid green; */
+        border: 1px solid green;
         width: 50%;
     }
 
     .col-md-12 {
         float: left;
-        /* border: 1px solid green; */
+        border: 1px solid green;
         width: 100%;
+        
+    }
+
+    .p {
+        width: 95%;
     }
 
 
