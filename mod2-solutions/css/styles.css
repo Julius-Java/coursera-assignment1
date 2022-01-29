@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Supermercado One, sans-serif, monospace, serif;
+    font-family: lobster;
+    font-size: 16px;
 }
 
 h1 {
     margin: 15px;
     text-align: center;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 p {
@@ -17,8 +18,11 @@ p {
     background-color: rgb(163, 161, 161);
     width: 90%;
     height: auto;
-    padding: 10px;
+    padding: 30px;
     margin: 10px auto 10px auto;
+    text-align: justify;
+    position: relative;
+    
 }
 
 /* Simple Responsive Framework. */
@@ -26,58 +30,63 @@ p {
     width: 100%;
 }
 
+.span-1 {
+    background-color: pink;
+    border: 1.5px solid black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: 200px;
+    padding: 4px;
+}
+.span-2 {
+    background-color: maroon;
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: 200px;
+    padding: 4px;
+    color: white;
+    
+}
+.span-3 {
+    background-color: yellow;
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: 200px;
+    padding: 4px;
+    
+}
+
 /********** Large devices only **********/
 @media (min-width: 992px) {
-    .col-lg-1, .col-lg-2, .col-lg-3,.col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    .col-lg-4 {
         float: left;
         border: 1px solid green;
+        width: 33.33%;
     }
 
-    .col-lg-1 {
-        width: 8.33%;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    /* .col-md-4 {
+        float: left;
+        border: 1px solid green;
+        width: 33.33%;
     }
 
-    .col-lg-2 {
-        width: 16.66%;
-    }
-
-    .col-lg-3 {
-        width: ;
-    }
-
-    .col-lg-4 {
-        width: ;
-    }
-
-    .col-lg-5 {
-        width: ;
-    }
-
-    .col-lg-6 {
-        width: ;
-    }
-
-    .col-lg-7 {
-        width: ;
-    }
-    .col-lg-8 {
-        width: ;
-    }
-
-    .col-lg-9 {
-        width: ;
-    }
-
-    .col-lg-10 {
-        width: ;
-    }
-
-    .col-lg-11 {
-        width: ;
-    }
-    .col-lg-12 {
-        width: ;
-    }
+    .col-md-12 {
+        float: left;
+        border: 1px solid green;
+        width: 100%;
+    } */
 
 
 }
