@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: lobster;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
 }
 
 h1 {
-    margin: 15px;
+    margin: 25px;
     text-align: center;
     font-weight: bold;
     font-size: 2rem;
@@ -19,6 +19,7 @@ p {
     width: 90%;
     height: auto;
     padding: 30px;
+    padding-top: 35px;
     margin: 10px auto 10px auto;
     text-align: justify;
     position: relative;
@@ -39,6 +40,7 @@ p {
     text-align: center;
     width: 200px;
     padding: 4px;
+    font-weight: bolder;
 }
 .span-2 {
     background-color: maroon;
@@ -50,6 +52,7 @@ p {
     width: 200px;
     padding: 4px;
     color: white;
+    font-weight: bolder;
     
 }
 .span-3 {
@@ -61,6 +64,7 @@ p {
     text-align: center;
     width: 200px;
     padding: 4px;
+    font-weight: bolder;
     
 }
 
